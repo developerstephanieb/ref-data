@@ -1,13 +1,62 @@
+# ==============================================================================
+# UNIVERSAL IGNORES
+# ==============================================================================
+
+# --- macOS ---
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# --- Linux ---
+.Desktop
+*~
+
+# --- Windows ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Editor & IDE Configs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.history/
+*.sublime-workspace
+
+# --- Environments ---
 venv/
 env/
 .venv/
-.env/
+.env
+.env.*
 
+# --- Keys & Certs ---
+*.pem
+*.key
+*.cert
+*.crt
+id_rsa
+id_dsa
+
+# --- Data & Logs ---
+input.txt
+output.txt
+error.txt
+data/
+datasets/
 *.log
+*.tmp
+*.bak
+*.dat
 
-.DS_Store
-Thumbs.db
+# --- Authoring & Workflow ---
+_drafts/
+_scratch/
+_templates/
 
-.vscode/
-.history
-notes/
+# ==============================================================================
+# PROJECT SPECIFIC
+# ==============================================================================
+

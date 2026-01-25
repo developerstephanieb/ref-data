@@ -1,16 +1,3 @@
-# Data Science
+# Data
 
-## Repository Structure
-
-```
-data_science_reference/
-├── 01_libraries/
-│   ├── numpy.md
-│   ├── pandas.md
-│   ├── scikit-learn.md
-│   ├── matplotlib.md
-│   ├── seaborn.md
-│   └── let_plot.md
-├── .gitignore 
-└── README.md
-```
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)

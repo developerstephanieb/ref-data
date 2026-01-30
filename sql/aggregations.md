@@ -1,6 +1,7 @@
 # Aggregations
 
-[1. Aggregate Functions](#1-aggregate-functions)
+[1. Aggregate Functions](#1-aggregate-functions)     
+[2. COUNT()](#2-count)     
 
 ---
 
@@ -18,3 +19,13 @@
 | `STDDEV(col)`         | Standard deviation                       | Ignores NULLs                            |
 | `VARIANCE(col)`       | Variance                                 | Ignores NULLs                            |
 
+---
+
+### 2. COUNT()
+
+**Syntax:**
+```sql
+SELECT COUNT(column_name)
+FROM table_name
+WHERE condition;
+```

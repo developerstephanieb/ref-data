@@ -7,3 +7,5 @@
 | `ADD`    | Adds a column to an existing table                            |
 | `ALL`    | Returns true if all of the subquery values meet the condition |
 | `AND`    | Includes rows where both conditions are true                  |
+| `CREATE` | Creates a database, index, view, table, or procedure          |
+| `DROP`   | Deletes a column, constraint, database, index, table, or view |
